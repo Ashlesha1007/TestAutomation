@@ -26,16 +26,8 @@ public class LoginStep extends BaseClass{
 		 Assert.assertTrue(false);
 	 }
 	 la.MouseHovOnAccountandLists();
-	
+	 logger.log(LogStatus.INFO, "test");
   }
- /* @Test(priority=1)
-  public void mouseHover() throws InterruptedException
-  {
-	
-   LoginAction la = new LoginAction();
-	  la.MouseHovOnAccountandLists();
-	 
-  }*/
   
  /* @Test
   public void logingmail1() {
